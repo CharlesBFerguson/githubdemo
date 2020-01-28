@@ -37,13 +37,11 @@ How to say One, Two and Three
   1. One
   1. Two
   1. Three
-  
 1. Japanese:
   1. Ichi
   1. Ni
   1. San
-
 1. Spanish:
-    1. Uno
-    1. Dos
-    1. Tres
+  1. Uno
+  1. Dos
+  1. Tres

@@ -31,7 +31,7 @@ _Bold **and** Italics_
   - Plymouth Barracuda
   - Plymouth Road Runner GTX
 
-![Image of Yaktocat](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%2770_Dodge_Challenger_%28Auto_classique_Bellepros_Vaudreuil-Dorion_%2711%29.JPG/1920px-%2770_Dodge_Challenger_%28Auto_classique_Bellepros_Vaudreuil-Dorion_%2711%29.JPG)
+![1968 Plymouth GTX](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/68_Plymouth_GTX_%287331425156%29.jpg/1920px-68_Plymouth_GTX_%287331425156%29.jpg)
 
 ## Ordered List Example:
 How to say One, Two and Three  
@@ -53,3 +53,5 @@ English | Japanese | Spanish
 One | Ichi | Uno
 Two | Ni | Dos
 Three | San | Tres
+
+:thumbsup:

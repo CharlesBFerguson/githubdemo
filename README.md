@@ -18,6 +18,10 @@ _Bold **and** Italics_
   - Piano/Keyboard
   - Bass Guitar
   - Drums
+- I enjoy sciences, such as:
+  - Astronomy
+  - Astrophysics
+  - Physics
 - I like classic cars. I am partial to Mopars. Some of my favorites include:
   - Dodge Charger
   - Dodge Challenger
@@ -26,10 +30,8 @@ _Bold **and** Italics_
       - SRT Hellcat
   - Plymouth Barracuda
   - Plymouth Road Runner GTX
-- I enjoy sciences, such as:
-  - Astronomy
-  - Astrophysics
-  - Physics
+
+![Image of Yaktocat](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%2770_Dodge_Challenger_%28Auto_classique_Bellepros_Vaudreuil-Dorion_%2711%29.JPG/1920px-%2770_Dodge_Challenger_%28Auto_classique_Bellepros_Vaudreuil-Dorion_%2711%29.JPG)
 
 ## Ordered List Example:
 How to say One, Two and Three  

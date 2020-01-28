@@ -15,19 +15,19 @@ _Bold **and** Italics_
 ## Hobbies and Interests:
 
 - I enjoy playing music. Some instruments I play include:
-  - Piano/Keyboard
   - Bass Guitar
   - Drums
+  - Keyboard/Piano
 - I enjoy sciences, such as:
   - Astronomy
   - Astrophysics
   - Physics
 - I like classic cars. I am partial to Mopars. Some of my favorites include:
-  - Dodge Charger
   - Dodge Challenger
       - R/T
       - SRT8
       - SRT Hellcat
+  - Dodge Charger
   - Plymouth Barracuda
   - Plymouth Road Runner GTX
 

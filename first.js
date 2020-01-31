@@ -71,25 +71,29 @@ if(eighth*8===100 && quarter*4===100 && half*2===100){
 
 // Exercise Loop - Steps 1-2
 
-var count=1;
+var c=1;
 
-for(count;count<51;count++){
-    console.log(count);
+for(c;c<51;c++){
+    console.log(c);
 }
 
         // Exercise Loop - Step 3
-// ??
 
+// Working on this in local "Scratch" folder and will merge later
+
+        
         // Exercise Loop - Step 4
 
-var count=1;
+var c=1;
 
-for(count;count<51;count++){
-    if(count%3===0 && count%5===0){
-        console.log(count+" fizzbuzz");
-    } else if(count%3===0){
-        console.log(count+" fizz");
-}   else if(count%5===0){
-    console.log(count+ " buzz");
-}   else console.log(count);
+for(c;c<51;c++){
+    if(c%3===0 && c%5===0){
+        console.log(c+" fizzbuzz");
+    } else if(c%3===0){
+        console.log(c+" fizz");
+    }   else if(c%5===0){
+    console.log(c+" buzz");
+} else console.log(c);
 }
+
+        // Exercise Function - Step 1

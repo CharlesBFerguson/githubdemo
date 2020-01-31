@@ -71,7 +71,7 @@ if(eighth*8===100 && quarter*4===100 && half*2===100){
 
 // Exercise Loop - Steps 1-2
 
-var count=1
+var count=1;
 
 for(count;count<51;count++){
     console.log(count);
@@ -82,12 +82,14 @@ for(count;count<51;count++){
 
         // Exercise Loop - Step 4
 
-var count=1
+var count=1;
 
 for(count;count<51;count++){
-    if(count%3===0){
+    if(count%3===0 && count%5===0){
+        console.log(count+" fizzbuzz");
+    } else if(count%3===0){
         console.log(count+" fizz");
-} else if(count%5===0){
+}   else if(count%5===0){
     console.log(count+ " buzz");
-} else {console.log(count);}
+}   else console.log(count);
 }

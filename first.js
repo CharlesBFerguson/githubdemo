@@ -87,5 +87,7 @@ var count=1
 for(count;count<51;count++){
     if(count%3===0){
         console.log(count+" fizz");
-} else {console.log(count);
-}}
+} else if(count%5===0){
+    console.log(count+ " buzz");
+} else {console.log(count);}
+}

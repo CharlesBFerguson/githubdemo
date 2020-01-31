@@ -32,7 +32,7 @@ console.log(answerMod2); // console.log(2*(count+5)%2); also works
 
         // Exercise Conditional - Steps 2-3
 
-        if(answerMod2==0){
+if(answerMod2==0){
     console.log("modulus 2 returns 0 is "+true);
 } else {
     console.log("modulus 2 returns 0 is "+false);
@@ -69,8 +69,23 @@ if(eighth*8===100 && quarter*4===100 && half*2===100){
     console.log("At least one condition does NOT equal 100");
 }
 
-        // Exercise Loop
+// Exercise Loop - Steps 1-2
 
-for(var count=1;count<51;count++){
+var count=1
+
+for(count;count<51;count++){
     console.log(count);
 }
+
+        // Exercise Loop - Step 3
+// ??
+
+        // Exercise Loop - Step 4
+
+var count=1
+
+for(count;count<51;count++){
+    if(count%3===0){
+        console.log(count+" fizz");
+} else {console.log(count);
+}}

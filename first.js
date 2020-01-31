@@ -1,20 +1,20 @@
 //
-// Homework 11-29-2020
+// Homework 1-29-2020
 //
+console.log("// Homework 1-29-2020");
 var num1;
 num1=13;
-
-console.log("// Homework 11-29-2020");
-console.log("Rated PG-" + 13);
+console.log("Rated PG-" +num1);
 console.log(2 + true);
 
 //
-// Homework 11-30-2020
+// Homework 1-30-2020
 //
+console.log(" ");
+console.log("// Homework 1-30-2020");
+
         // Exercise Conditional - Step 1
 
-console.log(" ");
-console.log("// Homework 11-30-2020");
 var count=2;
 var answer=2*(count+5);
 console.log(answer);
@@ -103,3 +103,12 @@ for(c;c<51;c++){
 }
 
         // Exercise Function - Step 1
+
+//
+// Homework 1-30-2020
+//
+console.log(" ");
+console.log("// Homework 1-31-2020");
+console.log("TBD")
+
+        // TBD

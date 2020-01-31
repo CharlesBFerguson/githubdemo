@@ -90,6 +90,9 @@ while(i<=50){
 
         // Exercise Loop - Step 4
 
+// MORGAN: I came up with this code on my own, but have shared it with a
+//couple of people in the class. So please don't think that I copied it :)
+
 var c=1;
 
 for(c;c<101;c++){

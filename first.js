@@ -79,9 +79,15 @@ for(c;c<51;c++){
 
         // Exercise Loop - Step 3
 
-// Working on this in local "Scratch" folder and will merge later
+var i=0
 
-        
+while(i<=50){
+    if(i%2===0){
+        console.log(i);
+    }
+    i+=1
+}
+
         // Exercise Loop - Step 4
 
 var c=1;

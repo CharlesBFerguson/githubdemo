@@ -10,7 +10,7 @@ console.log(2 + true);
 //
 // Homework 1-30-2020
 //
-console.log(" ");
+console.log("");
 console.log("// Homework 1-30-2020");
 
         // Exercise Conditional - Step 1
@@ -91,7 +91,7 @@ while(i<=50){
         // Exercise Loop - Step 4
 
 // MORGAN: I came up with this code on my own, but have shared it with a
-//couple of people in the class. So please don't think that I copied it :)
+// couple of people in the class. So please don't think that I copied it :)
 
 var c=1;
 
@@ -105,12 +105,55 @@ for(c;c<101;c++){
 } else console.log(c);
 }
 
-        // Exercise Function - Step 1
+        // Exercise Function - Steps 1-3
+
+function addBoth(add1,add2){
+    var addTotal;
+    addTotal=(add1+add2);
+    return addTotal;
+    }
+    console.log(addBoth(3000,5008));
+
+
+function areaRect(len,wid){
+    var area;
+    area=(len*wid);
+    return area;
+    }
+    console.log(areaRect(10,5));
+
+
+var height=10
+
+function volumeRect(len,wid,height){
+    var volume;
+    volume=(len*wid*height);
+    return volume;
+    }
+    console.log(volumeRect(10,5,height));
+
+
+        // Exercise Function - Step 4
+
+function loopParam(cStart,cEnd){
+    for(var i=cStart;i<=cEnd;i++){
+        console.log(i);
+    }
+}
+loopParam(1,25);
+
+
+        // Exercise Function - Step 5
+
+(function () {
+var iife="IIFE";
+console.log(iife);
+})();
 
 //
 // Homework 1-30-2020
 //
-console.log(" ");
+console.log("");
 console.log("// Homework 1-31-2020");
 console.log("TBD")
 

@@ -156,7 +156,7 @@ console.log(iife);
 console.log("");
 console.log("// Homework 1-31-2020");
 
-        // Exercise - User Math //
+        // Exercise - User Math
 
 var rand=Math.floor(Math.random()*5); // generates 0-4
 console.log("random number = " + rand);

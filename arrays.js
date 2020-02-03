@@ -1,7 +1,7 @@
 // Exercise array
 //  - make an array of 10 grocery store items loop through that array and log each item.
 //  - loop through a string at least 10 characters long and log each character
-//  - make that string upper case
+//  - make that string upper case //
 
 var salad=["lettuce","tomato","celery","radish","carrot","onion","bacon","egg","cucumber","Craisins®"];
 

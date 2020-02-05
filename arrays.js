@@ -55,3 +55,5 @@ function fillArray() {
 fillArray();
 
 console.log(inventory);
+
+//

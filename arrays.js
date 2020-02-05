@@ -33,6 +33,25 @@ var chocBar=[
   "Snickers",12,
   "Three Musketeers",12];
 
-  for(var i=0;i<chocBar.length;i++){
-    console.log(chocBar[i]);
-  }
+for(var i=0;i<chocBar.length;i++){
+  console.log(chocBar[i]);
+}
+console.log(chocBar);
+
+var inventory = [];
+
+function fillArray() {
+  inventory["water"] = 100,
+  inventory["soda"] = 100,
+  inventory["detergent"] = 50,
+  inventory["apple"] = 100,
+  inventory["banana"] = 100,
+  inventory["tomato"] = 100,
+  inventory["bread"] = 50,
+  inventory["butter"] = 50,
+  inventory["milk"] = 50,
+  inventory["chicken"] = 50;
+}
+fillArray();
+
+console.log(inventory);

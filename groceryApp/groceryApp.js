@@ -37,7 +37,7 @@ function sub() {
 }
 */
 
-/*
+
 // CODE FOR OPTION 2
 // option 2: parallel array
 let name = ['apple', 'blueberry', ' broccoli', 'milk', 'cheese'];
@@ -71,4 +71,3 @@ function sub() {
         i++;
     });
 }
-*/

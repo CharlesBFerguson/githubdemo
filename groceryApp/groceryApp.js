@@ -36,7 +36,7 @@
 //     } 
 // }
 
-
+//
 
 // CODE FOR OPTION 2
 // option 2: parallel array
@@ -71,3 +71,5 @@ function sub() {
         i++;
     });
 }
+
+var

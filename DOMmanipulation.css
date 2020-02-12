@@ -1,16 +1,9 @@
 /*
 Exercise Dom manipulation
-  - change styles of 3 separate elements using Javascript
-  - change the class name and text of a a child or sibling of each of the above elements
+  - change styles of 3 separate elements using Javascript.
+  - change the class name and text of a a child or sibling
+    of each of the above elements.
 */
-
-/*
-  Exercise event listener
-  - add an event listener to an element so that when you click it, another element's style changes.
-  - create a list with at least 3 elements
-  - apply event delegation to that list of elements
-  */
-
 
 #title{
   color: blue;
@@ -19,16 +12,24 @@ Exercise Dom manipulation
 
 #listItemOne{
   color: red;
-  font-size: large;
   font-style: italic;
 }
 
 #listItemTwo{
   color: grey;
+  font-size: large;
   font-family: sans-serif;
 }
 
 #listItemThree{
-  color:darkgreen;
-  font-size: small;
+  color:green;
+  font-size: x-large;
 }
+
+/*
+Exercise event listener
+- add an event listener to an element so that when you click it,
+  another element's style changes.
+- create a list with at least 3 elements.
+- apply event delegation to that list of elements.
+*/

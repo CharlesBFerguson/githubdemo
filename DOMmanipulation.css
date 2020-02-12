@@ -8,7 +8,7 @@ Exercise Dom manipulation
 #title{
   color: blue;
   background-color: khaki;
-  }
+}
 
 #listItemOne{
   color: red;
@@ -28,8 +28,8 @@ Exercise Dom manipulation
 
 /*
 Exercise event listener
-- add an event listener to an element so that when you click it,
-  another element's style changes.
+- add an event listener to an element so that when you click
+  it, another element's style changes.
 - create a list with at least 3 elements.
 - apply event delegation to that list of elements.
 */

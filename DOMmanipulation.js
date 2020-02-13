@@ -1,9 +1,6 @@
 //  Exercise Dom manipulation
 
 //  - change styles of 3 separate elements using Javascript:
-
-
-
 //  - change the class name and text of a a child or sibling
 //  of each of the above elements:
 

@@ -3,6 +3,9 @@
 //  - change the class name and text of a a child or sibling
 //  of each of the above elements:
 
+//  Future Chuck: Find a way to enter the color bar funtions
+//  only once and use in both instances.
+
 let country="USA"
 console.log(country)
 

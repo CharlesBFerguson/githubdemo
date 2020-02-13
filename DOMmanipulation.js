@@ -33,6 +33,11 @@
 //  ***ABOVE CODE WORKS*** and changes text color to white.
 //  Following code is attempt to assign white text all at once:
 
+function whiteText() {
+  var c = document.getElementById("unorderedList").style.color = "white";
+}
+whiteText()
+
 function redBar() {
   var c = document.getElementById("unorderedList").children;
   c[0].style.backgroundColor = "red";

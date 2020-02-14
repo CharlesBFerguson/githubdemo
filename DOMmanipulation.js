@@ -1,11 +1,16 @@
+
 //  Exercise Dom manipulation
-//  - change styles of 3 separate elements using Javascript
-//  - change the class name and text of a a child or sibling
-//    of each of the above elements:
+
+//  - change styles of 3 separate elements using Javascript.
+//  - change the class name and text of a a child or sibling of each of the above elements.
 
 //  Future Chuck:
 //  - Try using .removeElementListener() to return button mouseover state to original state.
-//  - Find a way to enter the color bar funtions only once and use in both instances.
+//  - Find a way to enter the colorBar() funtions only once and use in both instances.
+//  - Fix shadow in whiteBar()
+//  - Add left padding on all text.
+//  - Add border around menu (colorBar). Try to encapsulate all 3 instead of individually.
+//  - Still need to change class names to complete assignment.
 
 document.getElementById("usaBtn").addEventListener("mouseover",function(){
   document.getElementById("usaBtn").style.color = "red";
@@ -33,6 +38,13 @@ function countryCheck() {
     c[0].textContent = "RED";
   }
   redBar()
+  
+    function whiteBar() {
+    var c = document.getElementById("unorderedList").children;
+    c[1].textContent = "WHITE";
+    //C[1].style="text-shadow:2px 2px green;"
+  }
+  whiteBar()
 
   function blueBar() {
     var c = document.getElementById("unorderedList").children;
@@ -50,14 +62,20 @@ function countryCheck2() {
   function blueBar() {
     var c = document.getElementById("unorderedList").children;
     c[0].style.backgroundColor = "blue";
-    c[0].textContent = "BLUE";
+    c[0].textContent = "BLEU";
   }
   blueBar()
+  
+function whiteBar() {
+  var c = document.getElementById("unorderedList").children;
+  c[1].textContent = "BLANC";
+  }
+  whiteBar()
 
   function redBar() {
     var c = document.getElementById("unorderedList").children;
     c[2].style.backgroundColor = "red";
-    c[2].textContent = "RED";
+    c[2].textContent = "ROUGE";
   }
   redBar()
 }

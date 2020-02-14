@@ -5,7 +5,6 @@
 //  - change the class name and text of a a child or sibling of each of the above elements.
 
 //  Future Chuck:
-//  - Fix shadow in whiteBar()
 //  - Add left padding on all text.
 //  - Try using .removeElementListener() to return button mouseover state to original state.
 //  - Find a way to enter the colorBar() funtions only once and use in both instances.
@@ -43,7 +42,7 @@ function countryCheck() {
     function whiteBar() {
     var c = document.getElementById("unorderedList").children;
     c[1].textContent = "WHITE";
-    //C[1].style = "text-shadow:2px 2px green";
+    c[1].style.textShadow = "1px 1px black";
   }
   whiteBar()
 
@@ -70,6 +69,7 @@ function countryCheck2() {
 function whiteBar() {
   var c = document.getElementById("unorderedList").children;
   c[1].textContent = "BLANC";
+  c[1].style.textShadow = "1px 1px black";
   }
   whiteBar()
 

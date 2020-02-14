@@ -3,11 +3,27 @@
 //  - change the class name and text of a a child or sibling
 //    of each of the above elements:
 
-//  Future Chuck: Find a way to enter the color bar funtions
-//  only once and use in both instances.
+//  Future Chuck:
+//  - Try using .removeElementListener() to return button mouseover state to original state.
+//  - Find a way to enter the color bar funtions only once and use in both instances.
+
+document.getElementById("usaBtn").addEventListener("mouseover",function(){
+  document.getElementById("usaBtn").style.color = "red";
+});
+document.getElementById("usaBtn").addEventListener("mouseout",function(){
+  document.getElementById("usaBtn").style.color = "black";
+});
+document.getElementById("usaBtn").addEventListener("click",countryCheck);
+//
+document.getElementById("franceBtn").addEventListener("mouseover",function(){
+  document.getElementById("franceBtn").style.color = "red";
+});
+document.getElementById("franceBtn").addEventListener("mouseout",function(){
+  document.getElementById("franceBtn").style.color = "black";
+});
+document.getElementById("franceBtn").addEventListener("click",countryCheck2);
 
 function countryCheck() {
-  let country="USA";
   document.getElementById("title").textContent = "AMERICA!";
   document.getElementById("unorderedList").style.color = "white";
 
@@ -26,7 +42,7 @@ function countryCheck() {
   blueBar()
 }
 
-function countryCheckTwo() {
+function countryCheck2() {
   let country="France";
   document.getElementById("title").textContent = "Vive la France!";
   document.getElementById("unorderedList").style.color = "white";

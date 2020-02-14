@@ -5,12 +5,10 @@
 //  - change the class name and text of a a child or sibling of each of the above elements.
 
 //  Future Chuck:
-//  - Add left padding on all text.
+//  - Try adding control to apply JS and/or CSS styles.
 //  - Try using .removeElementListener() to return button mouseover state to original state.
 //  - Find a way to enter the colorBar() funtions only once and use in both instances.
-//  - Add border around menu (colorBar). Try to encapsulate all 3 instead of individually.
 //  - Still need to change class names to complete assignment.
-//  - Try adding control to apply JS and/or CSS styles.
 
 document.getElementById("usaBtn").addEventListener("mouseover",function(){
   document.getElementById("usaBtn").style.color = "red";

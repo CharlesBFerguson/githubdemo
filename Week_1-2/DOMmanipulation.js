@@ -1,5 +1,3 @@
-// commit
-
 //  Exercise Dom manipulation
 
 //  - change styles of 3 separate elements using Javascript.

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors</title>
+</head>
+<body>
+<!--
+  - give an element a block level class name
+  - in that element give it a BEM class name
+  - add offset to a parent with a child
+  - position that child absolute and give it some offset
+  - make a grand child of step 3
+  - using z-index put the child of step 3 on top of the grand child
+-->
+  <div class='buttons'>
+    <button class='btnParent'>Parent</button>
+    <div id='btnChild'>
+      <button class='btnChild'>Child</button>
+    </div>
+    <div id='btnGchild'>
+      <button class='btnGchild'>Grandchild</button>
+    </div>
+  </div>
+  
+</body>
+</html>

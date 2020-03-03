@@ -1,0 +1,9 @@
+.buttons {
+    color: rgb(255,0,0);
+}
+.btn--child {
+    color: rgb(0,255,0);
+}
+.btn--Gchild {
+    color: rgb(0,0,255);
+}

@@ -16,6 +16,10 @@ section {
   width: 64%;
 }
 
+img {
+  width: 50vw;
+}
+
 aside {
   float: right;
   /* width: 158px; */

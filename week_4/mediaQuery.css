@@ -28,6 +28,9 @@ img {
 img:hover {
   /* transition: 1s; */
   /* moving transition time to img will "roll" back */
+  -webkit-transform: scale(.73) skew(-20deg, -20deg) rotateZ(180deg);
+    -moz-transform: scale(.73) skew(-20deg, -20deg) rotateZ(180deg);
+      -o-transform: scale(.73) skew(-20deg, -20deg) rotateZ(180deg);
   transform: scale(.73) skew(-20deg, -20deg) rotateZ(180deg);
 }
 

@@ -18,13 +18,3 @@ readline.question(`What's your First Name?`, (firstName) => {
     readline.close()
   })
 })
-
-// const readline = require('readline').createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// })
-
-// readline.question(`What's your first name?`, (firstName) => {
-//   console.log(`Hi ${firstName}`)
-//   readline.close()
-// })

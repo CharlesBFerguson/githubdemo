@@ -7,22 +7,24 @@ Exercise prompt
 ( ) - Make the main file callable from the cli.
 */
 
-// const readline = require('readline').createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// })
-
-// readline.question(`What's your name?`, (name) => {
-//   console.log(`Hi ${name}!`)
-//   readline.close()
-// })
-
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 })
 
-readline.question(`What's your first name?`, (firstName) => {
-  console.log(`Hi ${firstName}`)
-  readline.close()
+readline.question(`What's your First Name?`, (firstName) => {
+  readline.question(`What's your Last Name?`, (lastName) => {
+    console.log(`Hi ${firstName} ${lastName}!`);
+    readline.close()
+  })
 })
+
+// const readline = require('readline').createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// })
+
+// readline.question(`What's your first name?`, (firstName) => {
+//   console.log(`Hi ${firstName}`)
+//   readline.close()
+// })

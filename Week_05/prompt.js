@@ -12,9 +12,13 @@ const readline = require('readline').createInterface({
   output: process.stdout
 })
 
+const fs = require('fs');
+
 readline.question(`What's your First Name?`, (firstName) => {
+  fs.writeFileSync('firstName.txt', firstName);
   readline.question(`What's your Last Name?`, (lastName) => {
-    console.log(`Hi ${firstName} ${lastName}!`);
+    fs.writeFileSync('lastName.txt', lastName);
+    // console.log(`Hi ${firstName} ${lastName}!`);
     readline.close()
   })
 })

@@ -1,0 +1,26 @@
+
+
+Poorly Designed Sites:
+  
+  Mopar.com - https://www.mopar.com
+    Desktop: No emphasis towards immediate navigation without having to click the hamburger menu or scrolling. Language selector div spanning entire page when it could have been incorporated (unified) within the nav area directly below it. Lack of variety in images, with same being used for differing content. Plus they are so large that they impede movement take up the entire viewport upon landing, while displaying little to no valuable content without scrolling. ALL images too large (not much being said on the page while using up a lot of real estate).
+    Mobile: Much of the same as above, with an immediate pop-up at the top (landscaped) with an additional pop-up at the bottom at the same time (portait) making it impossible to view any content without engaging these pop-ups.
+
+  Jami Lin's Passions - https://jamilin.com
+    Dektop/Mobile: No natural movement through page. Don't know where to look first, much less what to click. Too busy... glaring absence of negative space. Attempted applying emphasis to each element, therby rendering emphasis and unity to NONE of it. Gratuitous use of both color and images, both poorly contrasted. Un-unified filters applied on graphical text elements in header. Page only spans 1/3 of viewport. Still incorporates Flash (broken as well).
+
+  Columbia County, Georgia - https://www.columbiacountyga.gov/home
+    Desktop: Again, everything's so big! Had to check to make sure browser view was at 100%. Had to reduce view to 50% for it to look OK. After reducing, the images that span the page did not reduce proportionately, still spanning the entire page while only decreasing the height. Quick Links at the bottom of the page requiring a lot of scrolling to get see.
+    Mobile: While being fairly responsive, some of the elements could have been smaller, particularly in portrait mode.
+
+
+Well Designed Sites:
+
+  Adobe - adobe.com
+    Sections uniquely emphasised and well unified. Nice flow. Great use of negative space, particularly on the images in the promotions section near the bottom. Well balanced. High contrast.
+  
+  Wikipedia - https://en.wikipedia.org/wiki/English_Wikipedia
+    Excellent contrast. Easy movement. Well balanced. Images, links and content well unified.
+
+  Soulpancake - https://soulpancake.com
+    Desktop: Unified color scheme and graphical elements. Colors correlate with the images used in the header. Well balanced. Easy movement.
